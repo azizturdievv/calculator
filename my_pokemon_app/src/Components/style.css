@@ -1,0 +1,112 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+  background: url("https://images8.alphacoders.com/473/thumbbig-473849.webp");
+  background-size: cover;
+   font-family: Tahoma, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+.left-content,.right-content{
+    flex-basis: 50%;
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:2rem;
+}
+.card{
+    width: 250px;
+    height:120px;
+    background: linear-gradient(180deg, #00FFF0 0%, rgba(4, 255, 240, 0) 51.68%, rgba(2, 255, 240, 0.623845) 100%);
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    text-align:center;
+    align-items: center;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.card h2{
+    display: inline-block;
+    color: white;
+    
+}
+.card  h2 span{
+    color:blue;
+    padding-right: 15px;
+}
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:100px;
+    right: 10px;
+    align-items: center;
+    
+}
+.background-info{
+    background: linear-gradient(159.77deg, rgba(0, 87, 255, 0.78) 39.15%, rgba(0, 87, 255, 0.47) 56.78%, rgba(7, 88, 244, 0.9375) 90.14%);
+    width: 300px;
+   margin-left:200px;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    color: white;
+
+
+}
+.right-content img{
+    margin: 1.5rem;
+    height: 160px;
+}
+.right-content h1{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abilities .group{
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+.btn-group{
+    display: flex;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+}
