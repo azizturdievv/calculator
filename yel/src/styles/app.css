@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  background: rgb(0, 0, 255);
+  font-family: "Fasthand", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.text2 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.create {
+  background-color: red;
+  border: none;
+  color: blue;
+  width: 150px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 50px;
+  margin: 0 auto;
+}
+
+.create:hover {
+  background-color: rgb(24, 181, 209);
+  color: white;
+
+  transition: all 1s;
+}
+
+.input {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
